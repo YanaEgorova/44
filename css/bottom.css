@@ -1,0 +1,26 @@
+
+.bottom {
+    padding-bottom: 5rem;
+    text-align: center; 
+}
+.bottom__img {
+    margin-bottom: 1rem;
+}
+@media screen and (min-width: 1024px) {
+    .bottom__block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .bottom__list {
+        margin-right: 4rem;
+    }
+    .bottom__text-box {
+        text-align: left;
+    }
+    .bottom__img {
+        max-width: 20rem;
+        height: 15rem;
+        object-fit: cover;
+    }
+}

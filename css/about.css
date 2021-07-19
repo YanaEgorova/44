@@ -1,0 +1,10 @@
+.about {
+    display: flex;
+
+}
+.about__img {
+    width: 50%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
